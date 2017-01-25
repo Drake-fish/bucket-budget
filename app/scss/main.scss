@@ -1,0 +1,103 @@
+@import 'variables';
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+}
+.login-nav{
+  background:$background-text;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  text-align:right;
+  a{
+  color: white;
+text-decoration: none;
+margin-right: 3rem;
+}
+}
+.logo{
+  width:207px;
+  display:block;
+  text-align:center;
+  margin:0 auto;
+  margin-top:3rem;
+  h1{
+    color:$background-text;
+    margin:0;
+    font-size:3rem;
+  }
+  .bucket{
+    font-weight:bold;
+  }
+  .budget{
+    margin-top:-14px;
+    font-weight:normal;
+  }
+  ul{
+    padding:0;
+    list-style:none;
+    width:100%;
+    margin:0 auto;
+  }
+  span{
+    display: inline-block;
+height: 41px;
+width: 41px;
+background: black;
+margin-right: .3rem;
+border-radius: 3px;
+  }
+  .bucket1{
+    background:$bucket1;
+  }
+  .bucket2{
+    background:$bucket2;
+  }
+  .bucket3{
+    background:$bucket3;
+  }
+  .bucket4{
+    background:$bucket4;
+  }
+  .bucket5{
+    background:$bucket5;
+  }
+  .bucket6{
+    background:$bucket6;
+  }
+  .bucket7{
+    background:$bucket7;
+  }
+  .bucket8{
+    background:$bucket8;
+  }
+}
+.form{
+  margin-top:2rem;
+  position:relative;
+  input{
+    display:block;
+    margin:0 auto;
+    width:178px;
+    padding-top:.4rem;
+    padding-bottom:.4rem;
+    margin-bottom:.5rem;
+  }
+  input[type="submit"]{
+    background:transparent;
+    border:none;
+    font-size:1rem;
+    margin-top:2rem;
+    color:$background-text;
+  }
+}
+
+.form-enter{
+	opacity:0;
+  top:-100px
+}
+.form-enter.form-enter-active{
+	opacity:1;
+  top:0;
+	transition:all 1s ease-in;
+}
