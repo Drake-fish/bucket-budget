@@ -5,7 +5,7 @@ export default React.createClass({
 
     return(
           <div className="logo">
-            <h1 className="bucket">BUCKET</h1>
+            <h1 className="bucket-title">BUCKET</h1>
             <h1 className="budget">BUDGET</h1>
             <ul className="logo-buckets">
               <span className='bucket1'></span>
@@ -20,6 +20,6 @@ export default React.createClass({
 
           </div>
 
-    )
+    );
   }
 })

@@ -6,23 +6,16 @@ import TGroup from 'react-addons-css-transition-group';
 export default React.createClass({
   render(){
     return(
-      <div className="home">
+      <div className="login">
       <div className="login-nav">
         <Link to="/register">Register</Link>
       </div>
       <Logo/>
-      <TGroup
-					transitionName="form"
-          transitionAppear={true}
-          transitionAppearTimeout={2000}
-					transitionEnterTimeout={2000}
-					transitionLeaveTimeout={2000}>
       <form className='form' onSubmit={this.handleSubmit}>
         <input ref='email' type='text' placeholder='Email'/>
         <input ref='password' type='password' placeholder='Password'/>
         <input type='submit' value='LOGIN'/>
       </form>
-      </TGroup>
       </div>
     );
   },

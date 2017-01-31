@@ -101,3 +101,118 @@ border-radius: 3px;
   top:0;
 	transition:all 1s ease-in;
 }
+.home{
+  .fa-plus-square-o{
+    position:absolute;
+    left:1.5rem;
+    font-size:1.5rem;
+  }
+  .bank-info{
+    text-align:center;
+    margin-top:1rem;
+  }
+  .title{
+    margin:0;
+    margin-top:1rem;
+    font-size:1rem;
+    span{
+      font-size:.8rem;
+    }
+  }
+}
+.triangle{
+  position: absolute;
+    left: 46%;
+    width: 0;
+    top: 10px;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #2F86D4 transparent transparent transparent;
+}
+.drop-down{
+  height:10px;
+  position:relative;
+  background:$background-text;
+  margin-top:.5rem;
+}
+.open-drop-down{
+  background:$background-text;
+  color:white;
+  position:relative;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  .fa-ellipsis-v{
+font-size: 1.5rem;
+float: left;
+padding-left: 1rem;
+padding-top: .5rem;
+  }
+  h3{
+    margin:0;
+    font-size:1rem;
+  }
+}
+.slider{
+  float: left;
+    width: 40%;
+    background: $send;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top: -8px;
+}
+
+.overlay{
+  position:absolute;
+  top:0;
+  height:100%;
+  width:100%;
+  background:rgba(0,0,0,.5);
+}
+.bucket{
+    width: 80%;
+    background: #2DB089;
+    border-radius: 6px;
+    margin-left: 10%;
+    margin-top: 4rem;
+    height: 13rem;
+    position:relative;
+}
+.empty-bucket{
+  padding-top:1.5rem;
+  input{
+    font-size:1.5rem;
+    text-align:center;
+    background:transparent;
+    border:none;
+    width:67%;
+    display:block;
+    margin:0 auto;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    outline:none;
+    color:white;
+
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+  .amount{
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+  }
+  input[type="submit"]{
+    font-size:1rem;
+  }
+}

@@ -1,4 +1,5 @@
 import Backbone from 'backbone';
+import {browserHistory} from 'react-router';
 
 export default Backbone.Model.extend({
   url: 'https://api.backendless.com/v1/data/users',
@@ -21,6 +22,7 @@ export default Backbone.Model.extend({
         success: ()=>{
           console.log('logged-in');
           this.set({login});
+          browserHistory.push('/home');
         }
       }
     );
